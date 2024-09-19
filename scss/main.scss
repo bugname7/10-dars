@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+$transion:all 0.5s ease;
+// 
 body {
   font-family: "Inter", sans-serif;
 }
@@ -13,13 +14,11 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-// div {
-//   background-color: #145e76;
-// }
+// header
 .header {
   background-color: #145e76;
 }
-// header
+
 .header .hero__container {
   background-color: #103944;
 }
@@ -128,7 +127,7 @@ body {
     text-align: left;
     padding: 16px 35px;
     border-radius: 25px;
-    transition: all 0.5s ease;
+    transition: $transion;
   }
   .hire:hover {
     color: #ffa63a;
@@ -145,7 +144,7 @@ body {
     text-align: left;
     border-radius: 25px;
     padding-left: 50px;
-    transition: all 0.5s ease;
+    transition:$transion;
   }
   .work:hover {
     color: #ffa63a;
@@ -275,7 +274,7 @@ button:hover {
   margin-top: 70px;
 
   .card {
-    transition: all 0.5s ease;
+    transition: $transion;
     width: 273px;
     height: 251px;
     padding: 32px 29px;
